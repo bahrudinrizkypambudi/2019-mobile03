@@ -4,15 +4,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/current_song_image"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:background="#000"
+        app:srcCompat="@drawable/play_button"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:background="#000"
+        app:srcCompat="@drawable/revind"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="57dp"
+        android:layout_height="45dp"
+        android:background="#000"
+        app:srcCompat="@drawable/fast_forward"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="51dp"
+        android:layout_height="47dp"
+        android:background="#000"
+        app:srcCompat="@drawable/repeat"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:background="#000"
+        app:srcCompat="@drawable/speaker"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="743dp"
+        android:layout_height="131dp"
+        android:background="#000"
+        app:srcCompat="@drawable/wave"
+        tools:layout_editor_absoluteX="-166dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/next_song_image"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="138dp"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/prev_song_image"
+        tools:layout_editor_absoluteX="-37dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:text="Banana Brain"
+        android:textColor="@color/colorAccent"
+        android:textSize="14pt"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIE ANTWORD"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="356dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
